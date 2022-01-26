@@ -9,6 +9,7 @@ module.exports = {
     'netlify-cms-widget-object': '<rootDir>/packages/netlify-cms-widget-object/src/index.js',
     '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
   },
+  setupFiles: ['/home/drasync/ProfilingPromisesAnalysis/asyncHooks_require.js'],
   testURL: 'http://localhost:8080',
   snapshotSerializers: ['jest-emotion'],
   transformIgnorePatterns: ['node_modules/(?!copy-text-to-clipboard)'],
